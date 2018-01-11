@@ -1,0 +1,19 @@
+{
+  "start": "0111",
+  "0111": {
+    "id": "548",
+    "title": "迎旺年囤年货",
+    "keywords": "",
+    "description": "",
+    "version": "0.0.1",
+    "author": "Julian",
+    "load": {
+      "css": ["./0111/src/scss/main.scss"],
+      "js": ["./0111/src/js/*.js"]
+    },
+    "build": {
+      "css": "548.css",
+      "js": "app.js"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+.sp {
+  &-banner {
+    height: 629px;
+    background: #d82b25 url(./img/banner.png) no-repeat center top;
+  }
+  &-time {
+    position: relative;
+    height: 122px;
+    top: -76px;
+    background: url(./img/time.png) no-repeat center center;
+    a {
+      position: absolute;
+      display: block;
+      cursor: pointer;
+      width: 220px;
+      height: 100px;
+      top: 10px;
+      background-color: transparent;
+      right: 150px;
+    }
+  }
+  &-detail {
+    position: relative;
+    top: -20px;
+    height: 322px;
+    background: url(./img/detail.png) no-repeat center center;
+    a {
+      position: absolute;
+      display: block;
+      width: 120px;
+      height: 40px;
+      cursor: pointer;
+      // background: forestgreen;
+    }
+    .da1 {
+      left: 290px;
+      top: 120px;
+    }
+    .da2 {
+      left: 770px;
+      top: 160px;
+    }
+    .da3 {
+      left: 260px;
+      top: 230px;
+    }
+  }
+  &-website {
+    position: relative;
+    height: 338px;
+    background: url(./img/website.png) no-repeat center center;
+    &>div {
+      padding-top: 146px;
+      padding-left: 50px;
+      clear: both;
+      overflow: hidden;
+    }
+    a {
+      font-size: 0;
+      // display: inline-block;
+      float: left;
+      width: 180px;
+      height: 140px;
+      // background-color: rgba(127, 255, 212, 0.671);
+    }
+  }
+  &-main {
+    padding-top: 25px;
+  }
+  &-footer {
+    position: relative;
+    height: 395px;
+    background: url(./img/footer.png) no-repeat center center;
+  }
+}
+
+.floor {
+  &-top {
+    height: 135px;
+    background: url(./img/floor-top.png) no-repeat center center;
+  }
+  &-main {
+    min-height: 300px;
+    background: url(./img/floor-line.png) center center;
+    background-repeat: repeat-y;
+    padding-top: 20px;
+    padding-left: 50px;
+    ul {
+      // padding-left: 18px;
+      clear: both;
+      overflow: hidden;
+      li {
+        float: left;
+        margin-right: 6px;
+        margin-bottom: 6px;
+      }
+    }
+  }
+  &-end {
+    height: 34px;
+    background: url(./img/floor-end.png) no-repeat center center;
+  }
+}
+
+.online-url-sp {
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  left: 292px;
+  top: 237px;
+}

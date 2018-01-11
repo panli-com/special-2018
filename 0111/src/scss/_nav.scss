@@ -1,0 +1,67 @@
+.floor-nav {
+  position: fixed;
+  margin-top: -150px;
+  top: 50%;
+  z-index: 9999;
+  display: none;
+  width: 200px;
+  height: 201px;
+  transition: all .3s ease;
+  background: url(./imgs/tip.png) no-repeat center top;
+  .close-tip {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    right: 0;
+    top: 10px;
+    cursor: pointer;
+  }
+}
+
+
+.sp-girl-animation {
+  animation: rotateMove ease-in-out 4.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0);
+  }
+  60% {
+    transform: scale(1.15);
+  }
+  80% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotateMove {
+  0% {
+    transform-origin: 50% bottom;
+    transform: rotate(0deg);
+  }
+  20% {
+    transform-origin: 50% bottom;
+    transform: rotate(-8deg);
+  }
+  40% {
+    transform-origin: 50% bottom;
+    transform: rotate(8deg);
+  }
+  60% {
+    transform-origin: 50% bottom;
+    transform: rotate(-8deg);
+  }
+  80% {
+    transform-origin: 50% bottom;
+    transform: rotate(8deg);
+  }
+  100% {
+    transform-origin: 50% bottom;
+    transform: rotate(0deg);
+  }
+}
