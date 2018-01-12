@@ -89,10 +89,18 @@
       // padding-left: 18px;
       clear: both;
       overflow: hidden;
+      text-align: center;     
       li {
         float: left;
+        // width: 288px;
         margin-right: 6px;
         margin-bottom: 6px;
+        background: #fef6e3;
+        padding: 4px;
+        img{
+          display: block;
+          width: 285px;
+        }
       }
     }
   }
@@ -100,6 +108,13 @@
     height: 34px;
     background: url(./img/floor-end.png) no-repeat center center;
   }
+}
+
+.sp-alt{
+  padding: 10px;
+  text-align: center;
+  color: #333333;
+  font-size: 14px;
 }
 
 .online-url-sp {
