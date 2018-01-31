@@ -25,7 +25,6 @@
     $(".sp-tabar li").removeClass("on")
     $(this).addClass("on")
     var index = $(this).index()
-    console.log(index)
     $(".floor").hide()
     $(".floor"+ (index+1)).show()
   })
