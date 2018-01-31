@@ -1,0 +1,153 @@
+@mixin nav {
+  background: url(./img/nav.png) no-repeat;
+}
+
+@mixin t4 {
+  background-position: 0 0;
+}
+
+@mixin t3-on {
+  background-position: 0 -133px;
+}
+
+@mixin t4-on {
+  background-position: 0 -266px;
+}
+
+@mixin t5-on {
+  background-position: 0 -399px;
+}
+
+@mixin t5 {
+  background-position: 0 -532px;
+}
+
+@mixin t1-on {
+  background-position: 0 -665px;
+}
+
+@mixin t1 {
+  background-position: 0 -798px;
+}
+
+@mixin t2 {
+  background-position: 0 -931px;
+}
+
+@mixin t3 {
+  background-position: 0 -1064px;
+}
+
+@mixin t2-on {
+  background-position: 0 -1197px;
+}
+
+.sp {
+  &-banner {
+    height: 629px;
+    background: #d82b25 url(./img/banner.png) no-repeat center top;
+  }
+  &-time {
+    position: relative;
+    height: 122px;
+    top: -76px;
+    background: url(./img/time.png) no-repeat center center;
+    a {
+      position: absolute;
+      display: block;
+      cursor: pointer;
+      width: 220px;
+      height: 100px;
+      top: 10px;
+      background-color: transparent;
+      right: 50px;
+    }
+  }
+  &-main {
+    padding-top: 25px;
+    .floor{
+      display: none;
+    }
+  }
+  &-tabar {
+    position: relative;
+    height: 144px;
+    background: url("./img/title-bg.png") no-repeat center center;
+    ul {
+      clear: both;
+      overflow: hidden;
+      text-align: center;
+      margin-right: -60px;
+    }
+    li {
+      float: left;
+      // display: inline-block;
+      width: 160px;
+      height: 133px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      cursor: pointer;
+      margin-right: 44px;
+      @include nav();
+      &.li1 {
+        @include t1();
+        &.on{
+          @include t1-on();
+        }
+      }
+      &.li2 {
+        @include t2();
+        &.on{
+          @include t2-on();
+        }
+      }
+      &.li3 {
+        @include t3();
+        &.on{
+          @include t3-on();
+        }
+      }
+      &.li4 {
+        @include t4();
+        &.on{
+          @include t4-on();
+        }
+      }
+      &.li5 {
+        @include t5();
+        &.on{
+          @include t5-on();
+        }
+      }
+    
+    }
+  }
+  &-footer {
+    position: relative;
+    height: 100px;
+    background: url(./img/footer.png) no-repeat center center;
+  }
+}
+
+
+
+.sp-alt {
+  padding: 10px;
+  text-align: center;
+  color: #333333;
+  font-size: 14px;
+}
+
+.online-url-sp {
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  left: 292px;
+  top: 237px;
+}
+
+.sp-cop {
+  text-align: right;
+  color: #98061e;
+  padding-bottom: 50px;
+}

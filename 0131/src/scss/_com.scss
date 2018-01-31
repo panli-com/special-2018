@@ -1,0 +1,33 @@
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.pr {
+  position: relative;
+}
+
+.pa {
+  position: absolute
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  /* 触发 hasLayout */
+  zoom: 1;
+}
+
+.clear {
+  clear: both;
+  overflow: hidden;
+}

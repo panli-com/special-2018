@@ -1,0 +1,2 @@
+/*! 2018年汪年游园会 v 0.0.1  | (c) Wed Jan 31 2018 14:35:24 GMT+0800 (中国标准时间)  Julian  | https://github.com/panli-com/special-2017-cn#readme  550 */
+!function(){$(function(){$("body").on("click",".close-layer",function(){PL.closeAll()}),$(window).scroll(function(){var o=$(window).scrollTop(),l=o,n=$(".footer").offset().top-700;o>400&&l<n?$(".floor-nav").show():$(".floor-nav").hide()})}),$(".sp-tabar").on("click","li",function(){$(".sp-tabar li").removeClass("on"),$(this).addClass("on");var o=$(this).index();console.log(o),$(".floor").hide(),$(".floor"+(o+1)).show()})}();

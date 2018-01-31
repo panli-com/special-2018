@@ -1,0 +1,86 @@
+.product {
+  &-ul {
+    clear: both;
+    overflow: hidden;
+    margin-right: -16px;
+  }
+  &-li {
+    position: relative;
+    float: left;
+    width: 292px;
+    height: 350px;
+    background-color: #FFF;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    &:hover {
+      .scan-box {
+        display: block;
+      }
+    }
+    .thumb {
+      width: 292px;
+      height: 292px;
+      img {
+        max-width: 100%;
+      }
+    }
+    .p-title {
+      font-size: 14px;
+      // background-color: rebeccapurple; 
+      line-height: 30px;
+      color: #000;
+      padding-left: 16px;
+    }
+    .p-desc {
+      font-size: 13px;
+      font-weight: lighter;
+      color: #000;
+      padding-left: 16px;
+    }
+  }
+}
+
+
+.scan-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: url(./imgs/code-bg.png);
+  display: none;
+}
+
+.scan-img-box {
+  text-align: center;
+  padding-top: 66px;
+  height: 172px;
+  background: url(./imgs/balls.svg) no-repeat center center;
+  margin-bottom: 4px;
+}
+
+.scan-txt {
+  color: #FFF;
+  text-align: center;
+  font-size: 13px;
+  line-height: 23px;
+  span {
+    font-size: 14px;
+    color: #d97eff;
+  }
+}
+
+.sp-main-title{
+  text-align: center;
+  padding: 20px;
+}
+
+.sp-footer {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.strong {
+  font-weight: bold;
+}

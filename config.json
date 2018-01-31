@@ -1,5 +1,21 @@
 {
-  "start": "0111",
+  "start": "0131",
+  "0131": {
+    "id": "550",
+    "title": "2018年汪年游园会",
+    "keywords": "",
+    "description": "",
+    "version": "0.0.1",
+    "author": "Julian",
+    "load": {
+      "css": ["./0131/src/scss/main.scss"],
+      "js": ["./0131/src/js/*.js"]
+    },
+    "build": {
+      "css": "550.css",
+      "js": "app.js"
+    }
+  },
   "0111": {
     "id": "548",
     "title": "迎旺年囤年货",
