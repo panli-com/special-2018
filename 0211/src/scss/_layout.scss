@@ -1,4 +1,4 @@
-$bgclor:#d40729;
+$bgclor:#332358;
 .w1 {
   width: 1000px;
 }
@@ -12,32 +12,19 @@ $bgclor:#d40729;
 }
 
 #frame {
-  background-color: #d40729;
-  // background: #ff6ba2 url(./imgs/bg-1.png) no-repeat center top;
+  background-color: #ff7ca4;
   padding-bottom: 0px;
   a {
     text-decoration: none;
   }
 }
 
-.hide {
-  display: none;
-}
-
 .page-sp {
+  // background:$bgclor url(./imgs/light-bg.png) no-repeat center 174px;
   padding-bottom: 40px;
   font-family: 'Hiragino Sans GB', "Microsoft YaHei", arial;
 }
 
 .layui-Pan-nobg {
   background-color: transparent;
-}
-
-.close-layer{
-  position: absolute;
-  right: 34px;
-  top: 10px;
-  height: 40px;
-  width: 40px;
-  cursor: pointer;
 }

@@ -1,0 +1,145 @@
+
+.floor {
+  position: relative;
+  padding-bottom: 20px;
+  .txt-r {
+    text-align: right;
+  }
+  .txt-c {
+    text-align: center;
+  }
+  .title {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+
+.product {
+  &-list {
+    margin-right: -20px;
+    li {
+      float: left;
+      width: 245px;
+      margin-right: 7px;
+      margin-bottom: 10px;
+      transition: all .5s;
+      &:hover {
+        transition: all .5s;
+        // transform:translateY(-2px);
+        img {
+          transform: scale(1.03);
+        }
+      }
+    }
+    a {
+      color: #333;
+      font-size: 12px;
+      text-decoration: none;
+    }
+    img {
+      transition: all .5s;
+      display: block;
+      max-width: 100%;
+    }
+    .thumb {
+      width: 245px;
+      height: 245px;
+      overflow: hidden;
+      background: #FFF url(./img/balls.svg) no-repeat center center;
+    }
+  }
+}
+
+.shop{
+  &-content{
+    height: 70px;
+    background:#FFF url("./img/star.png");
+    text-align: center;
+    .p2{
+      color: #f51843;
+      font-size: 18px;
+      line-height: 30px;
+    }
+    a{
+      display: block;
+    }
+  }
+  &-name{
+    font-size: 14px;
+    color: #333;
+    height: 30px;
+    line-height: 36px;
+  }
+  &-foo{
+    height: 34px;
+    line-height: 34px;
+    background: #e13152;
+    color: #FFF;
+    text-align: center;
+    position: relative;
+    a{
+      display: block;
+    }
+    span{
+      position: relative;
+      display: inline-block;
+      color: #FFF;
+      &::after{
+        content: "";
+        display: inline-block;
+        width: 6px;
+        position: absolute;
+        top: 50%;
+        margin-top: -5px;
+        margin-left: 10px;
+        height: 10px;
+        background: url("./img/more.png") no-repeat center center;
+      }
+    }
+  }
+}
+
+.floor-list {
+  margin-left: -5px;
+  margin-right: -5px;
+  ul {
+    clear: both;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+    margin: 5px;
+  }
+}
+
+.layui-layer-shade {
+  opacity: .8!important;
+  filter: alpha(opacity=80)!important;
+}
+
+.layer-html-1-main {
+  position: relative;
+  overflow: hidden;
+  .online-url-sp {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: 211px;
+    left: 90px;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.close-layer {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  right: 10px;
+  cursor: pointer;
+  top: 0;
+}

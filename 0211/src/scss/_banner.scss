@@ -1,0 +1,20 @@
+.sp {
+  &-banner {
+    height: 627px;
+    background: #ff7ca4 url(./img/banner.png) no-repeat center -82px;
+  }
+  &-time{
+    position: relative;
+    padding-top: 20px;
+    height: 279px;
+    background: url("./img/time.png") no-repeat center center;
+    a{
+      position: absolute;
+      display: block;
+      width: 240px;
+      height: 100px;
+      background: transparent;
+      right: 70px;
+    }
+  }
+}
