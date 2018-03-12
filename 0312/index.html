@@ -16,7 +16,7 @@
   <script type="text/javascript">
     var CSright = true;
   </script>
-  <link href="./build/css/554.css?v=1520832800162" rel="stylesheet" type="text/css" />
+  <link href="./build/css/554.css?v=1520842144818" rel="stylesheet" type="text/css" />
   <title>
    红包驾到
   </title>
@@ -156,7 +156,7 @@
 
     <div class="floor-1 floor" id="floor-1">
       <div class="title txt-c">
-        <img src="./build/css/img/t1.png" alt="" srcset="">
+        <img src="./build/css/img/title.png" alt="" srcset="">
       </div>
       <div class="floor-body">
         <ul class="clear product-list" id="ul1"></ul>
@@ -207,7 +207,11 @@
   p.init({target:'#pageTool',pagesize:28,count:140, callback: function (pagecount) {
     PD(".floor-body ul").hide()
     PD("#ul" + pagecount).show()
-  }})
+    var _afloTop = $("#floor-1").offset().top;
+      $('body,html').animate({
+        scrollTop: _afloTop - 14
+      }, 0);
+      }})
 </script>
 <div class="shortcut footer">
   <div class="w">
