@@ -1,0 +1,38 @@
+.sp {
+  &-banner {
+    height: 669px;
+    background: #f94d36 url(./img/banner.png) no-repeat center -10px;
+  }
+  &-time{
+    position: relative;
+    height: 320px;
+    background: url("./img/time.png") no-repeat center center;
+    a.a1{
+      position: absolute;
+      display: block;
+      width: 240px;
+      height: 100px;
+      background: transparent;
+      right: 70px;
+    }
+    a.a2{
+      position: absolute;
+      display: block;
+      width: 140px;
+      height: 50px;
+      top: 180px;
+      right: 80px;
+    }
+    a.a3{
+      position: absolute;
+      display: block;
+      width: 140px;
+      height: 50px;
+      top: 210px; 
+      right: 360px;
+    }
+  }
+  &-main{
+    padding-bottom: 20px;
+  }
+}
